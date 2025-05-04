@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2b8ecd3a095ec41bb3f2814c8c5e2b, type: 3}
   m_Name: PlatformerScore
   m_EditorClassIdentifier: 
+  _showInfo: 1
+  _explanation: 'Defines a global variable of type float, with a default value 0.
+
+    Currently
+    it holds the value 0.
+
+    It''s limited between 0 and 1.'
+  description: 
   _type: 1
   _currentValue: 0
   _defaultValue: 0
-  _hasLimits: 0
-  _minValue: -3.4028235e+38
-  _maxValue: 3.4028235e+38
+  _hasLimits: 1
+  _minValue: 0
+  _maxValue: 1

@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Nigel Mean
   layers:
   - Default
   - TransparentFX
@@ -15,10 +16,10 @@ TagManager:
   - Exit
   - ExitCheck
   - Enemy
-  - 
-  - 
-  - 
-  - 
+  - Gem
+  - Pure Evil
+  - Chain
+  - Secondplayer
   - 
   - 
   - 
@@ -38,6 +39,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Sky
+    uniqueID: 2960044115
+    locked: 0
+  - name: Clouds
+    uniqueID: 710476991
+    locked: 0
+  - name: Sea
+    uniqueID: 194807077
+    locked: 0
+  - name: Favela
+    uniqueID: 676408271
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default
