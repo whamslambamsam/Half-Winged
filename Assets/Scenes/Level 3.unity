@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171808360}
   m_Layer: 12
-  m_Name: Chain2 (1)
+  m_Name: Chain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 171808359}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -634.6, y: 294.6, z: -0.58583397}
+  m_LocalPosition: {x: -634.6, y: 276.7, z: -0.58583397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2640,7 +2640,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.9000244
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &416640443
 Rigidbody2D:
   serializedVersion: 5
@@ -2653,7 +2653,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -2756,7 +2756,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 0.5
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -2791,7 +2791,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 85.15132
   m_DampingRatio: 1
-  m_Frequency: 100
+  m_Frequency: 70
 --- !u!233 &424844320
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -2808,7 +2808,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 6.049643, y: 18.354614}
+  m_ConnectedAnchor: {x: 6.049643, y: 5.6595826}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -2989,7 +2989,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.3999634
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &437049990
 Rigidbody2D:
   serializedVersion: 5
@@ -3002,7 +3002,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -3153,7 +3153,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.3999634
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &503642753
 Rigidbody2D:
   serializedVersion: 5
@@ -3166,7 +3166,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -4587,7 +4587,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.9000244
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &710538297
 Rigidbody2D:
   serializedVersion: 5
@@ -4600,7 +4600,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -4799,7 +4799,6 @@ GameObject:
   - component: {fileID: 865562823}
   - component: {fileID: 865562822}
   - component: {fileID: 865562821}
-  - component: {fileID: 865562820}
   - component: {fileID: 865562819}
   - component: {fileID: 865562818}
   - component: {fileID: 865562817}
@@ -5042,10 +5041,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When (IsGrounded(Jewel) and (IsGrounded(Jewel):\n          sets
-    Jewel's sprite color to RGBA(0.000, 0.922, 1.000, 1.000)\nelse\n          sets
-    Jewel's sprite color to RGBA(0.718, 0.294, 0.335, 1.000)\n\nThis trigger will
-    execute only when the conditions change and they are all true."
+  _explanation: "When (IsGrounded([UNDEFINED]) and (IsGrounded([UNDEFINED]):\n         
+    sets Jewel's sprite color to RGBA(0.000, 0.922, 1.000, 1.000)\nelse\n         
+    sets Jewel's sprite color to RGBA(0.718, 0.294, 0.335, 1.000)\n\nThis trigger
+    will execute only when the conditions change and they are all true."
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -5067,7 +5066,7 @@ MonoBehaviour:
     rigidBody: {fileID: 0}
     axis: 0
     probe: {fileID: 0}
-    movementPlatformer: {fileID: 865562820}
+    movementPlatformer: {fileID: 0}
     comparison: 0
     value: 0
     comparisonValueHandler: {fileID: 0}
@@ -5086,7 +5085,7 @@ MonoBehaviour:
     rigidBody: {fileID: 0}
     axis: 0
     probe: {fileID: 0}
-    movementPlatformer: {fileID: 865562820}
+    movementPlatformer: {fileID: 0}
     comparison: 0
     value: 0
     comparisonValueHandler: {fileID: 0}
@@ -5097,132 +5096,6 @@ MonoBehaviour:
   elseActions:
   - delay: 0
     action: {fileID: 865562817}
---- !u!114 &865562820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865562808}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3088c41d9f9a9f4ab3a63bd3c155b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Platformer controller
-
-    ----------------
-
-    Platformer movement;
-    horizontal speed is 450 units per second.
-
-    Horizontal movement will be controlled
-    by the [Horizontal] axis.
-
-    Ground check is going to use collider GroundCheck,
-    the ground layer mask defines what is considered solid ground.
-
-    When there''s
-    no solid ground below character, the character will start falling after 100s,
-    with a gravity scale of 0,5.
-
-    The character''s trajectory can be modified
-    mid-air.
-
-    When in the air, the character''s collider will be Jewel(Jewel
-    (UnityEngine.CapsuleCollider2D)), and on the ground will be Jewel(Jewel (UnityEngine.CapsuleCollider2D)).
-
-    The
-    character will jump by holding the [J] button.
-
-    The vertical velocity will
-    be 500 units/second while jump is pressed, during a maximum of 0,2 seconds.
-
-    Jump
-    height will be between 353 to 453 units (from 1,42 to 1,62 seconds to top of
-    trajectory).
-
-    The character will be able to double jump.
-
-    If the character
-    presses the jump button up to 0,1s before hitting the ground, it will jump automatically
-    again.
-
-    The character will glide by holding the [K] key, reducing it''s vertical
-    speed to 90 units/s when falling.
-
-    Character can only glide a maximum of
-    1,5 seconds.
-
-    This controller also controls some visuals:
-
-    When the player
-    intent is to go left, the horizontal scale of this object will be inverted.
-
-    Some
-    values will be set on animator Jewel:
-
-    Horizontal velocity will be set to
-    parameter VelocityX.
-
-    Absolute horizontal velocity will be set to parameter
-    AbsVelocityX.
-
-    Vertical velocity will be set to parameter VelocityY.
-
-    Absolute
-    vertical velocity will be set to parameter AbsVelocityY.
-
-    Grounded state
-    will be set to parameter IsGrounded.
-
-'
-  description: Platformer controller
-  hasConditions: 0
-  conditions: []
-  speed: {x: 450, y: 500}
-  horizontalInputType: 0
-  horizontalAxis: Horizontal
-  horizontalButtonPositive: Right
-  horizontalButtonNegative: Left
-  horizontalKeyPositive: 275
-  horizontalKeyNegative: 276
-  gravityScale: 0.5
-  useTerminalVelocity: 0
-  terminalVelocity: 5
-  coyoteTime: 100
-  jumpBehaviour: 2
-  maxJumpCount: 2
-  jumpBufferingTime: 0.1
-  jumpHoldMaxTime: 0.2
-  jumpInputType: 2
-  jumpAxis: Vertical
-  jumpButton: Jump
-  jumpKey: 106
-  enableAirControl: 1
-  airCollider: {fileID: 865562824}
-  groundCollider: {fileID: 865562824}
-  glideBehaviour: 2
-  glideMaxTime: 1.5
-  maxGlideSpeed: 90
-  glideInputType: 2
-  glideAxis: Vertical
-  glideButton: Jump
-  glideKey: 107
-  groundCheckCollider: {fileID: 1420652746}
-  groundLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  flipBehaviour: 4
-  useAnimator: 1
-  animator: {fileID: 865562822}
-  horizontalVelocityParameter: VelocityX
-  absoluteHorizontalVelocityParameter: AbsVelocityX
-  verticalVelocityParameter: VelocityY
-  absoluteVerticalVelocityParameter: AbsVelocityY
-  isGroundedParameter: IsGrounded
-  isGlidingParameter: 
 --- !u!114 &865562821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5360,7 +5233,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5442,7 +5315,6 @@ Transform:
   m_Children:
   - {fileID: 1420652747}
   - {fileID: 1839504932}
-  - {fileID: 1135908324}
   m_Father: {fileID: 867842276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!232 &865562828
@@ -5496,11 +5368,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb143c74894a8364fbbea6f4f9633fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 375
-  jump: 7
-  coyoteTime: 1
-  maxJumpCount: 2
-  fallMultiplier: 3
+  speed: 550
+  jump: 1000
+  airActions: 3
+  fallMultiplier: 2
+  dashDuration: 0.2
+  dashSpeed: 600
   groundCheck: {fileID: 1420652747}
   groundLayer:
     serializedVersion: 2
@@ -5948,7 +5821,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -6009,7 +5882,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 399.09113
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!212 &1043839427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6424,7 +6297,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.9000244
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &1086177728
 Rigidbody2D:
   serializedVersion: 5
@@ -6437,7 +6310,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -6643,37 +6516,6 @@ MonoBehaviour:
   changeValueHandler: {fileID: 0}
   changeVariable: {fileID: 0}
   scaleWithTime: 0
---- !u!1 &1135908323
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1135908324}
-  m_Layer: 0
-  m_Name: WallCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1135908324
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135908323}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 865562827}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136943701
 GameObject:
   m_ObjectHideFlags: 0
@@ -6755,7 +6597,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 3.8999634
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &1136943705
 Rigidbody2D:
   serializedVersion: 5
@@ -6768,7 +6610,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -7705,7 +7547,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.699951
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &1257234938
 Rigidbody2D:
   serializedVersion: 5
@@ -7718,7 +7560,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -7863,7 +7705,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 5.199951
   m_DampingRatio: 1
-  m_Frequency: 50
+  m_Frequency: 70
 --- !u!233 &1328979548
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -7880,7 +7722,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.9077269, y: 18.354614}
+  m_ConnectedAnchor: {x: -1.9077269, y: 5.6595826}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -7902,7 +7744,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 0.5
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -8318,7 +8160,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 20}
+  m_Offset: {x: 0, y: 15}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10325,7 +10167,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 3.9000244
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &1677962714
 Rigidbody2D:
   serializedVersion: 5
@@ -10338,7 +10180,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -10489,7 +10331,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 4.4000244
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &1685159145
 Rigidbody2D:
   serializedVersion: 5
@@ -10502,7 +10344,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -10604,7 +10446,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
@@ -10665,7 +10507,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 5.199951
   m_DampingRatio: 1
-  m_Frequency: 50
+  m_Frequency: 70
 --- !u!212 &1696094828
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10745,6 +10587,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1700786503}
+  - component: {fileID: 1700786504}
   m_Layer: 0
   m_Name: WallCheck
   m_TagString: Untagged
@@ -10767,6 +10610,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1761935334}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1700786504
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700786502}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 2, y: 15}
+  m_Radius: 15
 --- !u!1 &1721043704
 GameObject:
   m_ObjectHideFlags: 0
@@ -13146,7 +13025,6 @@ GameObject:
   - component: {fileID: 1761935334}
   - component: {fileID: 1761935333}
   - component: {fileID: 1761935317}
-  - component: {fileID: 1761935332}
   - component: {fileID: 1761935331}
   - component: {fileID: 1761935330}
   - component: {fileID: 1761935329}
@@ -13328,7 +13206,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761935316}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 302ff7b812c0d7846bbbf5b0db22ec81, type: 3}
   m_Name: 
@@ -13353,7 +13231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761935316}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 302ff7b812c0d7846bbbf5b0db22ec81, type: 3}
   m_Name: 
@@ -13398,7 +13276,7 @@ Animator:
   m_GameObject: {fileID: 1761935316}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6577285de641ad4c966ec9169599e3c, type: 2}
+  m_Controller: {fileID: 9100000, guid: fdf07e337aeabd34da766f6518b163c6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13444,55 +13322,18 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 21}
+  m_Offset: {x: 0, y: 15}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 64, y: 60}
+    oldSize: {x: 32, y: 32}
     newSize: {x: 16, y: 15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 12, y: 42}
+  m_Size: {x: 20, y: 20}
   m_EdgeRadius: 0
---- !u!70 &1761935332
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761935316}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 2, y: 21}
-  m_Size: {x: 20, y: 42}
-  m_Direction: 0
 --- !u!212 &1761935333
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13537,8 +13378,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4334783836991956000, guid: 1e757df3f06fd944e949e7ec47fa29f1, type: 3}
-  m_Color: {r: 0, g: 0.35839128, b: 1, a: 1}
+  m_Sprite: {fileID: -603284367, guid: 61e3675ff1b8fd542bdfb5c6e9bec66a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13626,12 +13467,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d0df70ef90e0349bb322db17a11407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
-  jump: 3
-  coyoteTime: 1
-  maxJumpCount: 1
-  WallClimbingSpeed: 3
-  fallMultiplier: 3.5
+  speed: 700
+  jump: 450
+  airActions: 0
+  fallMultiplier: 2.5
+  wallClimbingSpeed: 600
   groundCheck: {fileID: 1848552998}
   groundLayer:
     serializedVersion: 2
@@ -14703,7 +14543,7 @@ MonoBehaviour:
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  movementComponent: {fileID: 865562820}
+  movementComponent: {fileID: 0}
   rigidBodyComponent: {fileID: 0}
   changeType: 0
   operation: 0
@@ -14795,7 +14635,7 @@ MonoBehaviour:
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  movementComponent: {fileID: 865562820}
+  movementComponent: {fileID: 0}
   rigidBodyComponent: {fileID: 0}
   changeType: 0
   operation: 0
@@ -15538,7 +15378,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 3.9000244
   m_DampingRatio: 1
-  m_Frequency: 10
+  m_Frequency: 70
 --- !u!50 &2095379931
 Rigidbody2D:
   serializedVersion: 5
@@ -15551,7 +15391,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.02
   m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_GravityScale: 0.5
