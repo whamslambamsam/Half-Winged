@@ -280,7 +280,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -294,7 +294,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -318,7 +318,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -360,19 +360,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 447
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 448
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f30ef52481236150800000000000000
-      internalID: 5864567991223321585
+      spriteID: 3f7d936544293f945ac63355b57c7d64
+      internalID: -603284367
       vertices: []
       indices: 
       edges: []
@@ -381,20 +381,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 449
-        width: 22
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a036a819353eb5fe0800000000000000
-      internalID: -1199114927700548854
+      spriteID: 37cd86582a578514fafb13f10f008304
+      internalID: 933962294
       vertices: []
       indices: 
       edges: []
@@ -404,19 +404,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 415
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 416
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc907491cbd09ad90800000000000000
-      internalID: -7086117437161666099
+      spriteID: 1bd4991d2fbd3c646831a1e074685119
+      internalID: -772798650
       vertices: []
       indices: 
       edges: []
@@ -425,20 +425,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 415
+        x: 32
+        y: 416
         width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 839b619cd2ffb1010800000000000000
-      internalID: 1160801901090355512
+      spriteID: a47d75945ddfd0c48b1bc988c5ccac9a
+      internalID: 1281108779
       vertices: []
       indices: 
       edges: []
@@ -447,20 +447,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 415
+        x: 64
+        y: 416
         width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21162a63016c59490800000000000000
-      internalID: -7740062611627941614
+      spriteID: 3bd1c4dc7e6c28a44964878572c6cd64
+      internalID: 2127446771
       vertices: []
       indices: 
       edges: []
@@ -469,20 +469,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_5
       rect:
         serializedVersion: 2
-        x: 95
-        y: 415
+        x: 96
+        y: 416
         width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 78027dc9c9ba452f0800000000000000
-      internalID: -984973729352703865
+      spriteID: dff5b8d76bed18e4095e8f83e389a16a
+      internalID: 659666217
       vertices: []
       indices: 
       edges: []
@@ -492,19 +492,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 383
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 384
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f3b00391500fc2e0800000000000000
-      internalID: -2103462150600084490
+      spriteID: 82b28ffde0a6211428afff618abefe96
+      internalID: -1582585356
       vertices: []
       indices: 
       edges: []
@@ -513,20 +513,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_7
       rect:
         serializedVersion: 2
-        x: 31
-        y: 383
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 994e649a7d9c12b00800000000000000
-      internalID: 802144136743806105
+      spriteID: fafb32c8b49f9204995e2b47a9dc8fc2
+      internalID: -896002745
       vertices: []
       indices: 
       edges: []
@@ -536,19 +536,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 351
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f26db783773c7aa0800000000000000
-      internalID: -6161989220811578639
+      spriteID: 09115014187641e42b7c7b985f92ddee
+      internalID: -514766186
       vertices: []
       indices: 
       edges: []
@@ -557,20 +557,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_9
       rect:
         serializedVersion: 2
-        x: 31
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ceec87ddc1b1adc0800000000000000
-      internalID: -3629424327041159481
+      spriteID: 6eb6979bbf1065e4e8a722467c60d370
+      internalID: -635832172
       vertices: []
       indices: 
       edges: []
@@ -579,20 +579,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_10
       rect:
         serializedVersion: 2
-        x: 63
-        y: 351
-        width: 66
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 176704c8d09e81af0800000000000000
-      internalID: -425333920389630351
+      spriteID: eed387c172bba7749b76dd15d92c70a3
+      internalID: 751505129
       vertices: []
       indices: 
       edges: []
@@ -601,20 +601,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_11
       rect:
         serializedVersion: 2
-        x: 95
-        y: 319
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d961fb702170d07c0800000000000000
-      internalID: -4103615911443884387
+      spriteID: 9c0b94f21e634fd418844b19997e7265
+      internalID: 1653324568
       vertices: []
       indices: 
       edges: []
@@ -623,20 +623,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_12
       rect:
         serializedVersion: 2
-        x: 127
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f8eb87fa78f2f820800000000000000
-      internalID: 2950693912903936243
+      spriteID: 88358db5596ad1042bf72c00a0ecd11f
+      internalID: 1174047461
       vertices: []
       indices: 
       edges: []
@@ -645,20 +645,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_13
       rect:
         serializedVersion: 2
-        x: 159
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a4a48509ca3dae20800000000000000
-      internalID: 3363409131771045026
+      spriteID: 8f456ad2ba1e8b243a3abea4f6b532b6
+      internalID: 779933003
       vertices: []
       indices: 
       edges: []
@@ -667,20 +667,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_14
       rect:
         serializedVersion: 2
-        x: 191
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5f7d3c1aad7dedd0800000000000000
-      internalID: -2455168052275347618
+      spriteID: b0b04ab498ea7f149a1ca0229c0fa23a
+      internalID: 313746290
       vertices: []
       indices: 
       edges: []
@@ -689,20 +689,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_15
       rect:
         serializedVersion: 2
-        x: 223
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ce94efb1fccacbd0800000000000000
-      internalID: -2609047695429165374
+      spriteID: 99b11a3d340314048955b42418f08ab1
+      internalID: -1086143393
       vertices: []
       indices: 
       edges: []
@@ -711,20 +711,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_16
       rect:
         serializedVersion: 2
-        x: 255
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b6037708347b3b850800000000000000
-      internalID: 6391653796714852459
+      spriteID: 0983b69d3cac0934e997e3652f4830a6
+      internalID: -1170495705
       vertices: []
       indices: 
       edges: []
@@ -733,20 +733,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_17
       rect:
         serializedVersion: 2
-        x: 287
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f31e29b14fb965d70800000000000000
-      internalID: 9031577575475044671
+      spriteID: ce2063ac9d238c742964ec1926696c37
+      internalID: 1100391093
       vertices: []
       indices: 
       edges: []
@@ -755,20 +755,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_18
       rect:
         serializedVersion: 2
-        x: 319
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7690bd42b05903ea0800000000000000
-      internalID: -5895048037132465817
+      spriteID: fd82bf55fbd92214482b93e4b9c103d0
+      internalID: -1935748861
       vertices: []
       indices: 
       edges: []
@@ -777,20 +777,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_19
       rect:
         serializedVersion: 2
-        x: 351
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed9790e0a0f29cc70800000000000000
-      internalID: 8991769851253586398
+      spriteID: 34c4d4b38d037f146a7a5bc14a568923
+      internalID: -1695853003
       vertices: []
       indices: 
       edges: []
@@ -799,20 +799,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_20
       rect:
         serializedVersion: 2
-        x: 383
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a152cb14b3be52cd0800000000000000
-      internalID: -2583400171488664294
+      spriteID: aa71a0bdcb3418443975197817383028
+      internalID: -845991968
       vertices: []
       indices: 
       edges: []
@@ -821,20 +821,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_21
       rect:
         serializedVersion: 2
-        x: 415
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2a15ea01c226cee0800000000000000
-      internalID: -1241266434787173843
+      spriteID: 18d34ecc99abe4a4ebe28393727ce75f
+      internalID: 430324949
       vertices: []
       indices: 
       edges: []
@@ -843,20 +843,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_22
       rect:
         serializedVersion: 2
-        x: 447
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04c2e24b174ce9530800000000000000
-      internalID: 3863741522963737664
+      spriteID: d512b36fdec7c65418168e29de742feb
+      internalID: -440497940
       vertices: []
       indices: 
       edges: []
@@ -865,20 +865,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_23
       rect:
         serializedVersion: 2
-        x: 479
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 536c53e651dec94b0800000000000000
-      internalID: -5432206374216546763
+      spriteID: b9c16b5b23f8f1f44aba3ba8f1e7cb17
+      internalID: 3679574
       vertices: []
       indices: 
       edges: []
@@ -887,20 +887,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_24
       rect:
         serializedVersion: 2
-        x: 511
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 727019b5a81730570800000000000000
-      internalID: 8431707766423357223
+      spriteID: 52b7610fd1b388444bcc63e60d48aa5c
+      internalID: -1429968056
       vertices: []
       indices: 
       edges: []
@@ -909,20 +909,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_25
       rect:
         serializedVersion: 2
-        x: 543
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 735975ee9bef5c490800000000000000
-      internalID: -7726489511163095753
+      spriteID: d4ef4397c8a08884c906a057e2c8e3e7
+      internalID: 707458871
       vertices: []
       indices: 
       edges: []
@@ -931,20 +931,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_26
       rect:
         serializedVersion: 2
-        x: 575
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 576
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f73dbf441dd6f5eb0800000000000000
-      internalID: -4728940338142784641
+      spriteID: 129ff115cc06e1e42a7efc7e18518671
+      internalID: 942121986
       vertices: []
       indices: 
       edges: []
@@ -953,20 +953,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_27
       rect:
         serializedVersion: 2
-        x: 607
-        y: 351
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 608
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06bbad3d372d21aa0800000000000000
-      internalID: -6191655142763611296
+      spriteID: ecee69bbecad6504eae20b0d881f535e
+      internalID: 1700332278
       vertices: []
       indices: 
       edges: []
@@ -975,20 +975,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_28
       rect:
         serializedVersion: 2
-        x: 639
-        y: 351
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 352
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c282ca7dce07eb800800000000000000
-      internalID: 630065160411424812
+      spriteID: 375d14288658c2f4f9952aecc6384999
+      internalID: 117555536
       vertices: []
       indices: 
       edges: []
@@ -998,19 +998,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 319
-        width: 33
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 320
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6873899165d97a100800000000000000
-      internalID: 119236908270761862
+      spriteID: 2b27de98b5bb3c848a2d3732eb2fcb89
+      internalID: 1124424847
       vertices: []
       indices: 
       edges: []
@@ -1019,20 +1019,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 289
-        width: 33
+        x: 32
+        y: 320
+        width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aac7124aaf15c12f0800000000000000
-      internalID: -1000834880245760854
+      spriteID: b6c6af567cf5bfa459833842910b5af1
+      internalID: -1049858208
       vertices: []
       indices: 
       edges: []
@@ -1041,20 +1041,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_31
       rect:
         serializedVersion: 2
-        x: 31
-        y: 319
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04a9a8f378c26c750800000000000000
-      internalID: 6324791686086695488
+      spriteID: c5099acdadcbe2c499313ede1e8b8d97
+      internalID: 988470874
       vertices: []
       indices: 
       edges: []
@@ -1063,20 +1063,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_32
       rect:
         serializedVersion: 2
-        x: 63
-        y: 319
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9787d60fb3e02b30800000000000000
-      internalID: 4260655657085536156
+      spriteID: f6fba24094016144d818b1728a614846
+      internalID: -952207861
       vertices: []
       indices: 
       edges: []
@@ -1085,20 +1085,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_33
       rect:
         serializedVersion: 2
-        x: 63
-        y: 291
-        width: 66
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea414c2b2ed55ac50800000000000000
-      internalID: 6675845250889815214
+      spriteID: 83b0d2d08155d6c47a6c9bf74e631974
+      internalID: 1667744863
       vertices: []
       indices: 
       edges: []
@@ -1107,20 +1107,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_34
       rect:
         serializedVersion: 2
-        x: 127
-        y: 319
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd440578bdd43be20800000000000000
-      internalID: 3365118951839253724
+      spriteID: 17de142d3901d2f47abcb7fdd87b4eff
+      internalID: -1277672784
       vertices: []
       indices: 
       edges: []
@@ -1129,20 +1129,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_35
       rect:
         serializedVersion: 2
-        x: 159
-        y: 319
-        width: 34
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89950bac77e752620800000000000000
-      internalID: 2748742200546318744
+      spriteID: b8a0c949e6447a145a882bf08c8365d6
+      internalID: -543420320
       vertices: []
       indices: 
       edges: []
@@ -1151,20 +1151,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_36
       rect:
         serializedVersion: 2
-        x: 31
-        y: 289
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 30
+        y: 287
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc870f2abbbc55e90800000000000000
-      internalID: -7037494835943540529
+      spriteID: 6fa4272fec437e74786f2193e9057745
+      internalID: -1529062123
       vertices: []
       indices: 
       edges: []
@@ -1173,20 +1173,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 255
-        width: 65
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e411a4fbde5cde80800000000000000
-      internalID: -8152536926652394271
+      spriteID: 2c4ff4748f56ef640aa884d4ce5675d0
+      internalID: 1894051518
       vertices: []
       indices: 
       edges: []
@@ -1195,20 +1195,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_38
       rect:
         serializedVersion: 2
-        x: 63
-        y: 255
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d459c42e790014430800000000000000
-      internalID: 3765291415795176781
+      spriteID: c1087c8f3adca9e4990d26a580232511
+      internalID: -1276701734
       vertices: []
       indices: 
       edges: []
@@ -1217,20 +1217,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_39
       rect:
         serializedVersion: 2
-        x: 95
-        y: 255
-        width: 34
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 159e3d7c91f20b0e0800000000000000
-      internalID: -2256251625539376815
+      spriteID: f0ca828e4f2c913409821214b35b0c82
+      internalID: 759900196
       vertices: []
       indices: 
       edges: []
@@ -1239,20 +1239,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_40
       rect:
         serializedVersion: 2
-        x: 127
-        y: 255
-        width: 33
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c179f42408e093650800000000000000
-      internalID: 6213013104965424924
+      spriteID: f1a7a29bf72ec7045a4f6122ba83c46f
+      internalID: 340573998
       vertices: []
       indices: 
       edges: []
@@ -1261,20 +1261,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_41
       rect:
         serializedVersion: 2
-        x: 0
-        y: 191
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5ac7a35560a463a0800000000000000
-      internalID: -6673032390800586145
+      spriteID: bf30887d40696594f96796630f795b08
+      internalID: 1060490640
       vertices: []
       indices: 
       edges: []
@@ -1283,20 +1283,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_42
       rect:
         serializedVersion: 2
-        x: 31
-        y: 215
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e6a5fadb5e865e330800000000000000
-      internalID: 3739510401540250222
+      spriteID: 52fb2b4b980e5604092e9405407e2d75
+      internalID: 1918898812
       vertices: []
       indices: 
       edges: []
@@ -1305,20 +1305,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_43
       rect:
         serializedVersion: 2
-        x: 0
-        y: 159
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55d5dd1db49be30a0800000000000000
-      internalID: -6899873843790389931
+      spriteID: 4c6035e9350ae8d459fd230d4c2be978
+      internalID: -1107489710
       vertices: []
       indices: 
       edges: []
@@ -1327,20 +1327,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_44
       rect:
         serializedVersion: 2
-        x: 31
-        y: 159
+        x: 0
+        y: 192
         width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 673240eb9c179a620800000000000000
-      internalID: 2785882955795669878
+      spriteID: 8e417d9f59ac2764895c5bec0ada5285
+      internalID: 101071885
       vertices: []
       indices: 
       edges: []
@@ -1349,20 +1349,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_45
       rect:
         serializedVersion: 2
-        x: 63
-        y: 159
+        x: 32
+        y: 192
         width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11f40587c5b3d4050800000000000000
-      internalID: 5786346364582514449
+      spriteID: 07f65d11290d80c4e89d7a921c9c72d8
+      internalID: 1625952357
       vertices: []
       indices: 
       edges: []
@@ -1371,20 +1371,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_46
       rect:
         serializedVersion: 2
-        x: 95
-        y: 159
+        x: 0
+        y: 160
         width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66402bc94f86b5d00800000000000000
-      internalID: 962478345183954022
+      spriteID: 1df1aef29b95c6346a878e1ca1e087b9
+      internalID: -632103600
       vertices: []
       indices: 
       edges: []
@@ -1393,20 +1393,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_47
       rect:
         serializedVersion: 2
-        x: 0
-        y: 127
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c1bf3f3d83059e80800000000000000
-      internalID: -8172622043607486008
+      spriteID: 98c185d95b1a3a149b40a6a25cf76f5c
+      internalID: 1797642848
       vertices: []
       indices: 
       edges: []
@@ -1415,20 +1415,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_48
       rect:
         serializedVersion: 2
-        x: 31
-        y: 127
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea9aea3bfad45e200800000000000000
-      internalID: 208658374771780014
+      spriteID: 258b5639d8a8b4f469510100145222c2
+      internalID: -309077432
       vertices: []
       indices: 
       edges: []
@@ -1437,20 +1437,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_49
       rect:
         serializedVersion: 2
-        x: 0
-        y: 95
+        x: 96
+        y: 160
         width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 23e4d5eda98365440800000000000000
-      internalID: 4924185480382991922
+      spriteID: 0610ac362953bc143931b6fcf8822bbc
+      internalID: -37048950
       vertices: []
       indices: 
       edges: []
@@ -1459,20 +1459,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_50
       rect:
         serializedVersion: 2
-        x: 31
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9362a00ce822f1f00800000000000000
-      internalID: 1089627631349540409
+      spriteID: beb73651503408a46a5ddbcb48e8a9a9
+      internalID: -721675664
       vertices: []
       indices: 
       edges: []
@@ -1481,20 +1481,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_51
       rect:
         serializedVersion: 2
-        x: 63
-        y: 95
-        width: 65
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0017cc57fbfacf00800000000000000
-      internalID: 1137998895696515082
+      spriteID: 12251d9ddd89064498963cdf5f25b2db
+      internalID: -173582320
       vertices: []
       indices: 
       edges: []
@@ -1503,20 +1503,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_52
       rect:
         serializedVersion: 2
-        x: 95
-        y: 63
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1737df00b75eafaf0800000000000000
-      internalID: -361724503589555343
+      spriteID: 81089ae96260bca419b86e588610957c
+      internalID: 1018988739
       vertices: []
       indices: 
       edges: []
@@ -1525,20 +1525,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_53
       rect:
         serializedVersion: 2
-        x: 127
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09269c4f1b191f250800000000000000
-      internalID: 5976718373999436432
+      spriteID: c483899986d521945becb512fafc1c57
+      internalID: -256591246
       vertices: []
       indices: 
       edges: []
@@ -1547,20 +1547,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_54
       rect:
         serializedVersion: 2
-        x: 159
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b68ec119444e36d0800000000000000
-      internalID: -3008892420414863687
+      spriteID: 6daf5d7acf13f1b48aa64d828dab53d9
+      internalID: -988776654
       vertices: []
       indices: 
       edges: []
@@ -1569,20 +1569,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_55
       rect:
         serializedVersion: 2
-        x: 191
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c9438d25171c9880800000000000000
-      internalID: -8602975808459159097
+      spriteID: f0ac2f11ae3b77247b1dc749c4da2b55
+      internalID: -901591690
       vertices: []
       indices: 
       edges: []
@@ -1591,20 +1591,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_56
       rect:
         serializedVersion: 2
-        x: 223
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24c838a8e8cda7860800000000000000
-      internalID: 7528572231870549058
+      spriteID: 604e6e813fc299a41affa09b195b30b8
+      internalID: -1382816823
       vertices: []
       indices: 
       edges: []
@@ -1613,20 +1613,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_57
       rect:
         serializedVersion: 2
-        x: 255
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8778874b468dac550800000000000000
-      internalID: 6181991365555554168
+      spriteID: f0de1745dfbd5b14cbf46c20b7fbd9ab
+      internalID: -1006865111
       vertices: []
       indices: 
       edges: []
@@ -1635,20 +1635,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_58
       rect:
         serializedVersion: 2
-        x: 287
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf1a4e7cbab8ee5c0800000000000000
-      internalID: -4184253433871293956
+      spriteID: aaf6014ff23017b449dc09b1960a5372
+      internalID: 1658992880
       vertices: []
       indices: 
       edges: []
@@ -1657,20 +1657,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_59
       rect:
         serializedVersion: 2
-        x: 319
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8297642f1fe4bb1b0800000000000000
-      internalID: -5639827307292624600
+      spriteID: 6989b1454d6907f46a061e52f7b9222b
+      internalID: -995872661
       vertices: []
       indices: 
       edges: []
@@ -1679,20 +1679,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_60
       rect:
         serializedVersion: 2
-        x: 351
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73ebca7d344f309b0800000000000000
-      internalID: -5114976179544342985
+      spriteID: dfe39084b9cf5bf44ac914dca3ac1925
+      internalID: -1898328228
       vertices: []
       indices: 
       edges: []
@@ -1701,20 +1701,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_61
       rect:
         serializedVersion: 2
-        x: 383
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c67ed1487c8e9190800000000000000
-      internalID: -7953765443760654647
+      spriteID: 16ff8737bde5cf347b066bbbeadbca1e
+      internalID: 1920452827
       vertices: []
       indices: 
       edges: []
@@ -1723,20 +1723,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_62
       rect:
         serializedVersion: 2
-        x: 415
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45c351101a28ccb00800000000000000
-      internalID: 850198057685695572
+      spriteID: 445f7fbba3516a44abbd943b2e10d918
+      internalID: 2144670782
       vertices: []
       indices: 
       edges: []
@@ -1745,20 +1745,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_63
       rect:
         serializedVersion: 2
-        x: 447
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 858cfe4cadfe50b40800000000000000
-      internalID: 5405990650614106200
+      spriteID: 8b8f5d05b383dd940aa9a5ebf3df5e7f
+      internalID: 19319108
       vertices: []
       indices: 
       edges: []
@@ -1767,20 +1767,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_64
       rect:
         serializedVersion: 2
-        x: 479
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c62968198b6f1cb0800000000000000
-      internalID: -4891072433736833342
+      spriteID: 98462f5c1ddeb724abb2d62ded6c33fa
+      internalID: -463588408
       vertices: []
       indices: 
       edges: []
@@ -1789,20 +1789,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_65
       rect:
         serializedVersion: 2
-        x: 511
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a280b0a3ae55d1b0800000000000000
-      internalID: -5632491702088334683
+      spriteID: 331316b5a4ad8f34a8089275f21c7eb6
+      internalID: 1883646648
       vertices: []
       indices: 
       edges: []
@@ -1811,20 +1811,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_66
       rect:
         serializedVersion: 2
-        x: 543
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d90e1a99ea9b07760800000000000000
-      internalID: 7453661542851141789
+      spriteID: 6e88739e17712f44584101fdfbbaeecc
+      internalID: -1418876191
       vertices: []
       indices: 
       edges: []
@@ -1833,20 +1833,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_67
       rect:
         serializedVersion: 2
-        x: 575
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d827f9bd43c3a980800000000000000
-      internalID: -8528758530709706543
+      spriteID: 4634e9801b192e3409ad1bd7314842f8
+      internalID: 499052334
       vertices: []
       indices: 
       edges: []
@@ -1855,20 +1855,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_68
       rect:
         serializedVersion: 2
-        x: 607
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b73016e6865c4980800000000000000
-      internalID: -8553366454897985612
+      spriteID: 9e8d8997c6206a14880db79b9c5bab92
+      internalID: -1029306560
       vertices: []
       indices: 
       edges: []
@@ -1877,20 +1877,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_69
       rect:
         serializedVersion: 2
-        x: 639
-        y: 95
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0bc929d9d6b62bd70800000000000000
-      internalID: 9057419919134727344
+      spriteID: b58d1c849c099b54790652ea4f5f451a
+      internalID: -45479743
       vertices: []
       indices: 
       edges: []
@@ -1899,20 +1899,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_70
       rect:
         serializedVersion: 2
-        x: 0
-        y: 63
-        width: 33
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 576
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ec40d07cbbf56170800000000000000
-      internalID: 8171213885698755816
+      spriteID: 48c0dc4e000237f4aa3737fd45600d5c
+      internalID: 648887906
       vertices: []
       indices: 
       edges: []
@@ -1921,20 +1921,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_71
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 608
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7dff2f9c3a7c542f0800000000000000
-      internalID: -989165036856213545
+      spriteID: 3e99ed6f8fce9be4b975cea6e342ee03
+      internalID: 1897445110
       vertices: []
       indices: 
       edges: []
@@ -1943,20 +1943,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_72
       rect:
         serializedVersion: 2
-        x: 31
-        y: 63
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 009bdecfd4dfd8de0800000000000000
-      internalID: -1329127803606681344
+      spriteID: 81496bbcbe0d06b47b1885554a8cf9c5
+      internalID: -1720252636
       vertices: []
       indices: 
       edges: []
@@ -1965,20 +1965,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_73
       rect:
         serializedVersion: 2
-        x: 63
-        y: 63
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2dfca35262a27f670800000000000000
-      internalID: 8572366759044763602
+      spriteID: 66c427541b54f834182c66d7ac1ec4b4
+      internalID: 1728178976
       vertices: []
       indices: 
       edges: []
@@ -1987,20 +1987,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_74
       rect:
         serializedVersion: 2
-        x: 63
-        y: 34
-        width: 66
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3469ee4534a83d940800000000000000
-      internalID: 5319747606647051843
+      spriteID: 2d774144bb44fb348b420f90ec94dd1b
+      internalID: 1538890991
       vertices: []
       indices: 
       edges: []
@@ -2009,20 +2009,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_75
       rect:
         serializedVersion: 2
-        x: 127
-        y: 63
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e4046dd1033da810800000000000000
-      internalID: 1778133510983517415
+      spriteID: e780165c8add50c45a39d312a4c83898
+      internalID: -475590275
       vertices: []
       indices: 
       edges: []
@@ -2031,20 +2031,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_76
       rect:
         serializedVersion: 2
-        x: 159
-        y: 63
-        width: 34
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cce54fa17d82f3480800000000000000
-      internalID: -8917363832834990388
+      spriteID: f33a748ef0beefe4781186d8443ab1fc
+      internalID: -1145384117
       vertices: []
       indices: 
       edges: []
@@ -2053,20 +2053,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_77
       rect:
         serializedVersion: 2
-        x: 31
-        y: 33
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2acb053933b4ffcd0800000000000000
-      internalID: -2522214581417231198
+      spriteID: 85bd88fa9ae0002408a512dd5936b456
+      internalID: 1168013804
       vertices: []
       indices: 
       edges: []
@@ -2075,20 +2075,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 65
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 346ddeeaeee524eb0800000000000000
-      internalID: -4737119478810290621
+      spriteID: 30becd6d76184d84ab05c7c5836496eb
+      internalID: 1867923978
       vertices: []
       indices: 
       edges: []
@@ -2097,20 +2097,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_79
       rect:
         serializedVersion: 2
-        x: 63
-        y: 0
-        width: 34
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99b68d124a8653d70800000000000000
-      internalID: 9022232482658413465
+      spriteID: 9127f09b5432f0d44a0dc99e2edf799b
+      internalID: 1671363894
       vertices: []
       indices: 
       edges: []
@@ -2119,20 +2119,20 @@ TextureImporter:
       name: MacawSpriteSheet_Final_80
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 34
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5444401cc5cbcffe0800000000000000
-      internalID: -1153840297952394171
+      spriteID: 33a35a111d495694f919aad3c4a3aa48
+      internalID: 1082805137
       vertices: []
       indices: 
       edges: []
@@ -2141,20 +2141,152 @@ TextureImporter:
       name: MacawSpriteSheet_Final_81
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
+        x: 64
+        y: 32
         width: 32
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d904ec90e03971cf0800000000000000
-      internalID: -281594763184029539
+      spriteID: 190636710ae650e45bf1eda7d9e641de
+      internalID: 501801441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacawSpriteSheet_Final_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4fb9358b6634c4c9a45bfb31fe6206
+      internalID: -1794133697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacawSpriteSheet_Final_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc99a8f69a03eea4387c55b57bdd7528
+      internalID: 1987711130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacawSpriteSheet_Final_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcca15b2489e424caea80789d489190
+      internalID: -2147188235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacawSpriteSheet_Final_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea0bfc2d83f17a4b9c6afd352d934f7
+      internalID: -1121282313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacawSpriteSheet_Final_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441cb90a6ce61634f923395f8d2b9a1c
+      internalID: -13320247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacawSpriteSheet_Final_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b97bb4fac009745bf4e55924a3869f
+      internalID: -791163348
       vertices: []
       indices: 
       edges: []
@@ -2163,7 +2295,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1625ae9d09a5a9c4695bc9215e980749
     internalID: 0
     vertices: []
     indices: 
@@ -2172,7 +2304,95 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MacawSpriteSheet_Final_0: -603284367
+      MacawSpriteSheet_Final_1: 933962294
+      MacawSpriteSheet_Final_10: 751505129
+      MacawSpriteSheet_Final_11: 1653324568
+      MacawSpriteSheet_Final_12: 1174047461
+      MacawSpriteSheet_Final_13: 779933003
+      MacawSpriteSheet_Final_14: 313746290
+      MacawSpriteSheet_Final_15: -1086143393
+      MacawSpriteSheet_Final_16: -1170495705
+      MacawSpriteSheet_Final_17: 1100391093
+      MacawSpriteSheet_Final_18: -1935748861
+      MacawSpriteSheet_Final_19: -1695853003
+      MacawSpriteSheet_Final_2: -772798650
+      MacawSpriteSheet_Final_20: -845991968
+      MacawSpriteSheet_Final_21: 430324949
+      MacawSpriteSheet_Final_22: -440497940
+      MacawSpriteSheet_Final_23: 3679574
+      MacawSpriteSheet_Final_24: -1429968056
+      MacawSpriteSheet_Final_25: 707458871
+      MacawSpriteSheet_Final_26: 942121986
+      MacawSpriteSheet_Final_27: 1700332278
+      MacawSpriteSheet_Final_28: 117555536
+      MacawSpriteSheet_Final_29: 1124424847
+      MacawSpriteSheet_Final_3: 1281108779
+      MacawSpriteSheet_Final_30: -1049858208
+      MacawSpriteSheet_Final_31: 988470874
+      MacawSpriteSheet_Final_32: -952207861
+      MacawSpriteSheet_Final_33: 1667744863
+      MacawSpriteSheet_Final_34: -1277672784
+      MacawSpriteSheet_Final_35: -543420320
+      MacawSpriteSheet_Final_36: -1529062123
+      MacawSpriteSheet_Final_37: 1894051518
+      MacawSpriteSheet_Final_38: -1276701734
+      MacawSpriteSheet_Final_39: 759900196
+      MacawSpriteSheet_Final_4: 2127446771
+      MacawSpriteSheet_Final_40: 340573998
+      MacawSpriteSheet_Final_41: 1060490640
+      MacawSpriteSheet_Final_42: 1918898812
+      MacawSpriteSheet_Final_43: -1107489710
+      MacawSpriteSheet_Final_44: 101071885
+      MacawSpriteSheet_Final_45: 1625952357
+      MacawSpriteSheet_Final_46: -632103600
+      MacawSpriteSheet_Final_47: 1797642848
+      MacawSpriteSheet_Final_48: -309077432
+      MacawSpriteSheet_Final_49: -37048950
+      MacawSpriteSheet_Final_5: 659666217
+      MacawSpriteSheet_Final_50: -721675664
+      MacawSpriteSheet_Final_51: -173582320
+      MacawSpriteSheet_Final_52: 1018988739
+      MacawSpriteSheet_Final_53: -256591246
+      MacawSpriteSheet_Final_54: -988776654
+      MacawSpriteSheet_Final_55: -901591690
+      MacawSpriteSheet_Final_56: -1382816823
+      MacawSpriteSheet_Final_57: -1006865111
+      MacawSpriteSheet_Final_58: 1658992880
+      MacawSpriteSheet_Final_59: -995872661
+      MacawSpriteSheet_Final_6: -1582585356
+      MacawSpriteSheet_Final_60: -1898328228
+      MacawSpriteSheet_Final_61: 1920452827
+      MacawSpriteSheet_Final_62: 2144670782
+      MacawSpriteSheet_Final_63: 19319108
+      MacawSpriteSheet_Final_64: -463588408
+      MacawSpriteSheet_Final_65: 1883646648
+      MacawSpriteSheet_Final_66: -1418876191
+      MacawSpriteSheet_Final_67: 499052334
+      MacawSpriteSheet_Final_68: -1029306560
+      MacawSpriteSheet_Final_69: -45479743
+      MacawSpriteSheet_Final_7: -896002745
+      MacawSpriteSheet_Final_70: 648887906
+      MacawSpriteSheet_Final_71: 1897445110
+      MacawSpriteSheet_Final_72: -1720252636
+      MacawSpriteSheet_Final_73: 1728178976
+      MacawSpriteSheet_Final_74: 1538890991
+      MacawSpriteSheet_Final_75: -475590275
+      MacawSpriteSheet_Final_76: -1145384117
+      MacawSpriteSheet_Final_77: 1168013804
+      MacawSpriteSheet_Final_78: 1867923978
+      MacawSpriteSheet_Final_79: 1671363894
+      MacawSpriteSheet_Final_8: -514766186
+      MacawSpriteSheet_Final_80: 1082805137
+      MacawSpriteSheet_Final_81: 501801441
+      MacawSpriteSheet_Final_82: -1794133697
+      MacawSpriteSheet_Final_83: 1987711130
+      MacawSpriteSheet_Final_84: -2147188235
+      MacawSpriteSheet_Final_85: -1121282313
+      MacawSpriteSheet_Final_86: -13320247
+      MacawSpriteSheet_Final_87: -791163348
+      MacawSpriteSheet_Final_9: -635832172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
