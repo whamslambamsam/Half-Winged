@@ -39,6 +39,7 @@ public class BluMovement : MonoBehaviour
     private float horizontal;
     private float vertical;
     private int airActionsLeft;
+    private Animator animator;
     //
     // .........................................................................
     //
@@ -47,6 +48,8 @@ public class BluMovement : MonoBehaviour
     // .........................................................................
     private bool isJumping;
     private bool isWallClimbing;
+    private bool idle;
+    private bool walking;
     //
     // .........................................................................
     //
@@ -54,7 +57,6 @@ public class BluMovement : MonoBehaviour
     //
     // .........................................................................
     // ~
-
 
     // On startup:
     private void Awake()
@@ -65,7 +67,7 @@ public class BluMovement : MonoBehaviour
 
         // "Fetches" (not as in git, mind you) the RigidBody2D 
         body = GetComponent<Rigidbody2D>();
-        Animator animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         // "Fetches" Unity's (Physics2D) gravity
         vecGravity = new Vector2(0f, -Physics2D.gravity.y);
     }
@@ -78,26 +80,49 @@ public class BluMovement : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-            // --- Walking
+        if (horizontal == 0f && vertical == 0f)
+        {
+            walking = false;
+            isJumping = false;
+            isWallClimbing = false;
+            idle = true;
+            if (idle == true)
+            {
+                animator.SetBool("idle", true);
+            }
+        }
+
+        // --- Walking
         // -------------------
-        Vector2 vel = body.linearVelocity;
-        vel.x = horizontal * speed;
-        body.linearVelocity = vel;
+        if (horizontal > 0f)
+        {
+            walking = true;
+            animator.SetBool("walking", true);
+            Vector2 vel = body.linearVelocity;
+            vel.x = horizontal * speed;
+            body.linearVelocity = vel;
+        }
 
             // Triggers wall climbing
         // -------------------
         isWallClimbing = isWalled() && Input.GetKey(KeyCode.K);
 
-            // --- Jump
+        // --- Jump
         // -------------------
         if (Input.GetKeyDown(KeyCode.K) && !isJumping)
         {
             isJumping = true;
-            Debug.Log("Le jump but Blu");
+            animator.SetTrigger("jump");
 
             body.AddForce(new Vector2(0f, jump), ForceMode2D.Impulse);
 
             airActionsLeft--;
+
+            if (isGrounded())
+            {
+                isJumping = false;
+                animator.SetTrigger("land");
+            }
         }
 
             // --- Resets values when landing
@@ -128,6 +153,7 @@ public class BluMovement : MonoBehaviour
         // -------------------
         if (isWallClimbing)
         {
+            animator.SetBool("climbing", true);
             body.gravityScale = 0f;
             body.linearVelocity = new Vector2(horizontal, vertical * wallClimbingSpeed);
             //body.AddForce(new Vector2(0f, wallClimbingSpeed), ForceMode2D.Force);
