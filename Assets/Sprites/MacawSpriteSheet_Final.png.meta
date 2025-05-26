@@ -1151,8 +1151,8 @@ TextureImporter:
       name: MacawSpriteSheet_Final_36
       rect:
         serializedVersion: 2
-        x: 30
-        y: 287
+        x: 32
+        y: 288
         width: 32
         height: 32
       alignment: 7
@@ -2175,8 +2175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4fb9358b6634c4c9a45bfb31fe6206
-      internalID: -1794133697
+      spriteID: 9c89132abc841a347895006344adf717
+      internalID: -722907735
       vertices: []
       indices: 
       edges: []
@@ -2197,8 +2197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc99a8f69a03eea4387c55b57bdd7528
-      internalID: 1987711130
+      spriteID: 3fabf1204a0ecf544935f52e6a6280d5
+      internalID: 190042049
       vertices: []
       indices: 
       edges: []
@@ -2219,8 +2219,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abcca15b2489e424caea80789d489190
-      internalID: -2147188235
+      spriteID: 5ad064881e85f39478804cc14dd974ea
+      internalID: 839955599
       vertices: []
       indices: 
       edges: []
@@ -2241,8 +2241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ea0bfc2d83f17a4b9c6afd352d934f7
-      internalID: -1121282313
+      spriteID: 1242ae617feae7e42ac33fd0bf8864ab
+      internalID: -535779573
       vertices: []
       indices: 
       edges: []
@@ -2263,8 +2263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 441cb90a6ce61634f923395f8d2b9a1c
-      internalID: -13320247
+      spriteID: f0cefa19195b36c4ba1a2341554e12bc
+      internalID: -178253864
       vertices: []
       indices: 
       edges: []
@@ -2285,8 +2285,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b97bb4fac009745bf4e55924a3869f
-      internalID: -791163348
+      spriteID: 146c15ecd386a564bafdef57c700d5de
+      internalID: -1239042781
       vertices: []
       indices: 
       edges: []
@@ -2386,12 +2386,12 @@ TextureImporter:
       MacawSpriteSheet_Final_8: -514766186
       MacawSpriteSheet_Final_80: 1082805137
       MacawSpriteSheet_Final_81: 501801441
-      MacawSpriteSheet_Final_82: -1794133697
-      MacawSpriteSheet_Final_83: 1987711130
-      MacawSpriteSheet_Final_84: -2147188235
-      MacawSpriteSheet_Final_85: -1121282313
-      MacawSpriteSheet_Final_86: -13320247
-      MacawSpriteSheet_Final_87: -791163348
+      MacawSpriteSheet_Final_82: -722907735
+      MacawSpriteSheet_Final_83: 190042049
+      MacawSpriteSheet_Final_84: 839955599
+      MacawSpriteSheet_Final_85: -535779573
+      MacawSpriteSheet_Final_86: -178253864
+      MacawSpriteSheet_Final_87: -1239042781
       MacawSpriteSheet_Final_9: -635832172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
